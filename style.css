@@ -32,3 +32,15 @@ header {
 
     text-align: center;
 }
+
+footer {
+    position: fixed; /* Fixa o elemento em relação à viewport (tela) */
+    bottom: 0; /* Cola na parte inferior da tela */
+    left: 0; /* Garante que ele comece na esquerda */
+    width: 100%; /* Ocupa a largura total */
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    z-index: 1000; /* Garante que ele fique sobre outros elementos */
+}
